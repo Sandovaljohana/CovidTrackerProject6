@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.backgroundHome {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    background: url("/src/images/backgroundHome.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh; 
+    padding: 20px; 
+    text-align: center;
+    position: relative;
+    opacity: 0.96;
+  }
+  
+  .backgroundHome::after {
+    content: "";
+    background: linear-gradient(to right, #1e0c9d, #06cdec);
+    height: 100%;
+    width: 100%;
+    size-adjust: auto;
+    position: absolute;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .imgBanner{
+    width: 70%;
+    margin-top: 10%;
+    size-adjust: auto;
+  }
+

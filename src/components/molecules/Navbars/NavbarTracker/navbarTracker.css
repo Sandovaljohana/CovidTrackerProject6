@@ -1,0 +1,8 @@
+.navbarCustom{
+    background-color: aqua;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border-right: solid 1px gray;
+}
