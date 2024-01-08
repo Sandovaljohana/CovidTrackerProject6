@@ -1,7 +1,7 @@
-/* .cardContainer {
+.cardContainer {
     animation: bounce 5s ease-in-out infinite;
     -webkit-animation: bounce 5s ease-in-out infinite;
-} */
+} 
 .bounce-delay {
     animation-delay: 0.5s; 
     -webkit-animation-delay: 0.5s;

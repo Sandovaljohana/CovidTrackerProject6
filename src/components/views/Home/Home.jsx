@@ -8,6 +8,7 @@ const Home = () => {
   const url = 'https://disease.sh/v3/covid-19/';
   const { data } = useFetch(url + "countries");
   const [currentIndex, setCurrentIndex] = useState(0);
+ 
   useEffect(() => {
     const intervalId = setInterval(() => {
       if (currentIndex < data.length - 1) {
@@ -23,6 +24,7 @@ const Home = () => {
   }
 
   const currentCard = data[currentIndex];
+  
   return (
     <div className="home text-white ">
       <NavbarHome />
