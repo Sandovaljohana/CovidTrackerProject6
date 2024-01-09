@@ -1,6 +1,9 @@
 import React from 'react';
 import  NavbarTracker from '../../molecules/Navbars/NavbarTracker/NavbarTracker'
-import './tracker1.css';
+import '../Tracker1/tracker1.css';
+import CardCases from '../../atoms/CardCases/CardCases';
+import useFetch from '../../services/UseFetch';
+import { useState, useEffect} from 'react';
 
 const Tracker1 = () => {
  
