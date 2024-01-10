@@ -1,12 +1,12 @@
 .cardCasesContainer {
     height: 10%;
-    padding: 3%;
-    width: auto;
+    padding: 2%;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2%;
-
+    justify-content: space-between;
+    border-radius: 4px;
 }
 
 .cardCasesTitle {
@@ -17,10 +17,14 @@
 .todayCasesText {
     font-size: 10px;
     font-weight: bold;
+    color: #999999;
     text-align: center;
+    padding: 5px 10px;
 }
 .updatedCasesContainer {
-    margin-left: 5%;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color: white;
 }
 
 .cardCasesData {

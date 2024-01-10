@@ -19,9 +19,32 @@ const Tracker2 = () => {
           cardsBgStyle="cardsBgStyleTotal"
           cardText="Total Case"
           smallTextValue={`+ ${data.todayCases}`}
+          cardDataStyle="cardDataStyleTotal"
           globalTextDataValue={data.cases}
         />
-
+        <CardCases
+          key="active"
+          cardsBgStyle="cardsBgStyleActive"
+          cardText="Active Case"
+          globalTextDataValue={data.active}
+          cardDataStyle="cardDataStyleActive"
+        />
+        <CardCases
+          key="recovered"
+          cardsBgStyle="cardsBgStyleRecovered"
+          cardText="Recovered Case"
+          smallTextValue={`+ ${data.todayRecovered}`}
+          globalTextDataValue={data.recovered}
+          cardDataStyle="cardDataStyleRecovered"
+        />
+        <CardCases
+          key="deaths"
+          cardsBgStyle="cardsBgStyleDeaths"
+          cardText="Deaths Case"
+          smallTextValue={`+ ${data.todayDeaths}`}
+          globalTextDataValue={data.deaths}
+          cardDataStyle="cardDataStyleDeaths"
+        />
       </div>
     </div>
   );

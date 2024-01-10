@@ -1,3 +1,51 @@
 .cardCasesRow {
     width: 100%;
 }
+
+.cardsBgStyleTotal {
+    background-color: #fff2f2;
+}
+
+.cardsBgStyleTotal:hover {
+    border: solid 2px #ff0000;
+}
+
+.cardDataStyleTotal {
+    color: #ff0000;
+}
+
+.cardsBgStyleActive {
+    background-color: #fff9f1;
+}
+
+.cardsBgStyleActive:hover {
+    border: solid 2px #ff6a07;
+}
+
+.cardDataStyleActive {
+    color: #ff6a07;
+}
+
+.cardsBgStyleRecovered {
+    background-color: #edffec;
+}
+
+.cardsBgStyleRecovered:hover {
+    border: solid 2px #82c519;
+}
+
+.cardDataStyleRecovered {
+    color: #82c519;
+}
+
+.cardsBgStyleDeaths {
+    background-color: #eefbff;
+}
+
+.cardsBgStyleDeaths:hover {
+    border: solid 2px #3639ae;
+}
+
+.cardDataStyleDeaths {
+    color: #3639ae;
+}
