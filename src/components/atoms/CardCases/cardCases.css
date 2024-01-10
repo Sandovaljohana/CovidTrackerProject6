@@ -1,0 +1,29 @@
+.cardCasesContainer {
+    height: 10%;
+    padding: 3%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+
+}
+
+.cardCasesTitle {
+    width: auto;
+    font-weight: bold;
+}
+
+.todayCasesText {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.updatedCasesContainer {
+    margin-left: 5%;
+}
+
+.cardCasesData {
+    font-size: 28px;
+    font-weight: bold;
+}
