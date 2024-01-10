@@ -1,0 +1,13 @@
+.rdt_TableRow:nth-child(odd ){
+  background-color: #f8f9fe;
+  color: #1712A6;
+}
+
+imgTable{
+  height: 10px;
+  margin: 4px;
+}
+
+.customTableClass .rdt_TableSearch {
+  float: right; 
+}
