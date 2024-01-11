@@ -5,7 +5,7 @@
 <h3> 📌 Challenge: Develop the front-end of an application that dynamically displays information by consuming an API on COVID-19 data.</h2>
 
 <h4> 🗒 Project brief:</h4>
-React-based resposive web application that allows users to visualize in an intuitive and understandable way the latest data related to Covid-19. Through this Dashboard, the user will be able to learn about the updated metrics of different indicators reflected in Trackers that show the information according to different approaches.<br><br>
+<strong>COVITECH Consultora</strong> has created a React-based resposive web application that allows users to visualize in an intuitive and understandable way the latest data related to Covid-19. Through this Dashboard, the user will be able to learn about the updated metrics of different indicators reflected in Trackers that show the information according to different approaches.<br><br>
 Users can enter through a homepage that gives them context about the website and provides a button "Trackers" to access the information that is displayed as follows:
 <ul>
 <li>Tracker that allows filtering by country,</li>
