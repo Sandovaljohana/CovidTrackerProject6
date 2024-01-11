@@ -4,7 +4,7 @@ import "../cardTopten/cardTopten.css";
 const CardTopten = (props) => {
   return (
     <div className="countryContainer">
-      <div>
+      <div className="topTenInfoData">
         <div className="toptenFlag" >
             <img src={props.toptenFlagValue} />
         </div>

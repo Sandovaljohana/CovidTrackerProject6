@@ -12,7 +12,7 @@ const Topten = () => {
     return <>Loading</>;
   }
   return (
-    <div className="mx-60">
+    <div>
       {topTenCountries?.map((element) => (
         <CardTopten
           key={element.cases}
