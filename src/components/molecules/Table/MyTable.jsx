@@ -1,10 +1,13 @@
-import UseFetch from "../../services/UseFetch";
-import Table from "./Table";
+import React from 'react';
+import useFetch from '../../services/UseFetch';
+import Table from './Table';
 
 const MyTable = () => {
-  const url = "https://disease.sh/v3/covid-19/";
-  const { data } = UseFetch(url + "countries");
+  const url = 'https://disease.sh/v3/covid-19/';
+  const { data } = useFetch(url + 'countries');
   console.log(data);
+
+  const paginationSizes = [10, 20, 50, 100];
 
   const myColumns = [
     {
@@ -55,9 +58,9 @@ const MyTable = () => {
   }
 
   return (
-   <div className="max-w-screen-xl mx-auto">
-      <Table data={data} columns={myColumns} />
-    </div>
+    <div className="max-w-screen-xl mx-auto">
+    <Table data={data} columns={myColumns} paginationSizes={paginationSizes} />
+  </div>
   );
 };
 
