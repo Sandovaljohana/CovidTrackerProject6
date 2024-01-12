@@ -15,6 +15,9 @@ const Tracker2 = () => {
     <div className="flex flex-row">
       <NavbarTracker />
       <div className="cardCasesRow">
+        <div className="titleTracker0">
+          <h1>COVID-19 Tracker</h1>
+        </div>
         <CardCases
           key="total"
           cardsBgStyle="cardsBgStyleTotal"
