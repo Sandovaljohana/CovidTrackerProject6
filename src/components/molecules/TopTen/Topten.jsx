@@ -1,6 +1,6 @@
 import React from "react";
 import "../TopTen/topTen.css";
-import CardTopten from "../../atoms/cardTopten/CardTopten";
+import CardTopten from "../../atoms/CardTopten/CardTopten";
 import useFetch from "../../services/UseFetch";
 
 const Topten = () => {
