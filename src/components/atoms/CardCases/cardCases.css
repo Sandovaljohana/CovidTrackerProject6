@@ -1,12 +1,14 @@
 .cardCasesContainer {
-    height: 10%;
-    padding: 2%;
-    width: 30%;
+    height: 66.62px;
+    padding: 20px 20px 15px 20px;
+    width: 359px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
 }
 
 .cardCasesTitle {
@@ -19,11 +21,12 @@
     font-weight: bold;
     color: #999999;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px;
 }
 .updatedCasesContainer {
     margin-left: 10px;
     border-radius: 2px;
+    height: 27.5px;
     background-color: white;
 }
 
