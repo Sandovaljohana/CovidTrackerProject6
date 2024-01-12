@@ -45,9 +45,8 @@ const Tracker2 = () => {
           smallTextValue={`+ ${data.todayDeaths}`}
           globalTextDataValue={data.deaths}
           cardDataStyle="cardDataStyleDeaths"
-        />       
-         <Topten />
-
+        />
+        <Topten />
       </div>
     </div>
   );
