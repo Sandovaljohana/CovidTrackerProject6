@@ -12,6 +12,9 @@ const Topten = () => {
     return <>Loading</>;
   }
   return (
+    <> <div className="topTenTitle">
+    <p>Top 10 Country</p>
+  </div>
     <div>
       {topTenCountries?.map((element) => (
         <CardTopten
@@ -22,6 +25,7 @@ const Topten = () => {
         />
       ))}
     </div>
+    </>
   );
 };
 
