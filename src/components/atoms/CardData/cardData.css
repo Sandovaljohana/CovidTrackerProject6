@@ -9,13 +9,21 @@
 .containerDataIcon .iconContent {
     width: 140px;
     height: 140px;
-    position: absolute;
+    /*position: absolute;*/
     right: -30px;
     top: -30px;
     line-height: 60px;
     color: #fff;
     font-size: 20px;
     opacity: 0.1;
+}
+
+.iconContent {
+    text-align: right;
+}
+
+.iconContent img{
+    margin-left: auto;
 }
 
 .imgIcon {

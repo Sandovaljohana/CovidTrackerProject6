@@ -8,10 +8,13 @@ import Tracker2 from '../Tracker2/Tracker2';
 import Dropdown from '../../atoms/Dropdown/Dropdown';
 import CardData from '../../atoms/CardData/CardData';
 import '../../../components/atoms/CardData/cardData.css';
+import card01 from '../../../../src/images/covid-blue.svg'
 
 const Tracker1 = () => {
   const url = "https://disease.sh/v3/covid-19/";
   const { data } = useFetch(url + "countries");
+  
+  
   if (data === null) {
     return <>Loading</>;
   }
@@ -25,7 +28,7 @@ const Tracker1 = () => {
           <Dropdown />
           <CardData
             key="totalCasesCard"
-            iconCard="imgIcon"
+            iconCard={card01}
             dataTitleGlobal="dataTitleGlobal"
             cardDataTittle="Total Cases"
             dataGlobalstyle="dataGlobalstyleBlue"
