@@ -1,0 +1,43 @@
+.cardDataContainer {
+    box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
+    border-radius: 4px;
+    background-color: white;
+    border: solid 2px aqua;
+
+}
+
+.containerDataIcon .iconContent {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.1;
+}
+
+.imgIcon {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.cardDataContainer{
+    color: black;
+}
+
+.dataGlobalstyleBlue {
+    color: #3639ae ;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* <div className='border-blue-700 border-solid border-2 '>
+            <img className='imgCardData' src="{props.covidIconStyle}" alt="" />
+            </div>
+                <div div className='border-green-700 border-solid border-2 cardContaineDiv'>
+                <h4>{props.cardDataTittle}</h4>
+                <h3>{props.dataGlobalCountriesValue}</h3>
+                </div> */

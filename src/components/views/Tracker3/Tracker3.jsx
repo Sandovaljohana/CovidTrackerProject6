@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+
 
 const Tracker3 = () => {
   return (
-    <div>Tracker3</div>
+    <>
+    <div>
+      Tracker3
+
+  
+      </div>
+    </>
+    
   )
 }
 
