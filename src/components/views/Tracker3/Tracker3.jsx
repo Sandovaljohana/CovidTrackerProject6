@@ -48,7 +48,7 @@ const Tracker3 = () => {
               />
             ))}
           </div>
-          <div className="tenCountriesCard">
+          <div className="tenCountriesCard flex fle-row flex-wrap">
             {selectedCountry && countryData && (
               <>
                 <CardData
