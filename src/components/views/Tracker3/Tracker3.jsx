@@ -35,6 +35,9 @@ const Tracker3 = () => {
       <div className="tracker03Container">
         <Tracker0 />
         <div className="tenCountriesContainer">
+          <div>
+            <h1 className="trackerTitle">Covid-19 Country Wise - Tabs</h1>
+          </div>
           <div className="tenCountriesRow">
             {tenCountries?.map((element) => (
               <CardFlags
