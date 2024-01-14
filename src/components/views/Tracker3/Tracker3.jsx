@@ -9,19 +9,18 @@ const Tracker3 = () => {
   const url = "https://disease.sh/v3/covid-19/";
   const { data, loading, error } = useFetch(url + "countries");
   const sortedData = data?.sort((a, b) => b.cases - a.cases);
-  const tenCountries = sortedData?.slice(0, 10);
+  const tenCountries = sortedData?.slice(0, 9);
   const [selectedCountry, setSelectedCountry] = useState(null);
 
   useEffect(() => {
-    // Puedes hacer algo aquí si es necesario
   }, [selectedCountry]);
 
   if (loading) {
-    return <>Cargando...</>;
+    return <>Loading...</>;
   }
 
   if (error) {
-    return <>Error al cargar los datos</>;
+    return <>Error with data charge</>;
   }
 
   const countryData = data?.find((country) => country.country === selectedCountry);
@@ -39,7 +38,7 @@ const Tracker3 = () => {
             {tenCountries?.map((element) => (
               <CardFlags
                 onSelectCountry={handleCountryChange}
-                key={element.country} // Utilizar un identificador único como clave
+                key={element.country} 
                 flagValue={element.countryInfo.flag}
                 countryValue={element.country}
               />
