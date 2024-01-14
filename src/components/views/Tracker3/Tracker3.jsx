@@ -12,8 +12,7 @@ const Tracker3 = () => {
   const tenCountries = sortedData?.slice(0, 9);
   const [selectedCountry, setSelectedCountry] = useState(null);
 
-  useEffect(() => {
-  }, [selectedCountry]);
+  useEffect(() => {}, [selectedCountry]);
 
   if (loading) {
     return <>Loading...</>;
@@ -23,7 +22,9 @@ const Tracker3 = () => {
     return <>Error with data charge</>;
   }
 
-  const countryData = data?.find((country) => country.country === selectedCountry);
+  const countryData = data?.find(
+    (country) => country.country === selectedCountry
+  );
 
   const handleCountryChange = (country) => {
     setSelectedCountry(country);
@@ -38,7 +39,7 @@ const Tracker3 = () => {
             {tenCountries?.map((element) => (
               <CardFlags
                 onSelectCountry={handleCountryChange}
-                key={element.country} 
+                key={element.country}
                 flagValue={element.countryInfo.flag}
                 countryValue={element.country}
               />
@@ -50,45 +51,45 @@ const Tracker3 = () => {
                 <CardData
                   key={countryData.country}
                   dataTitleGlobal="dataTitleGlobal"
-                  cardDataTittle={`Casos totales - ${countryData.country}`}
+                  cardDataTittle={`Total Cases`}
                   dataGlobalstyle="dataGlobalstyleBlue"
                   dataGlobalCountriesValue={countryData.cases}
                 />
                 <CardData
                   key={`TotalDeaths-${countryData.country}`}
                   dataTitleGlobal="dataTitleGlobal"
-                  cardDataTittle={`Muertes totales - ${countryData.country}`}
+                  cardDataTittle={`Total Deaths`}
                   dataGlobalstyle="dataGlobalstyleEnglishRed"
                   dataGlobalCountriesValue={countryData.deaths}
                 />
                 <CardData
                   key={`TotalRecovered-${countryData.country}`}
                   dataTitleGlobal="dataTitleGlobal"
-                  cardDataTittle={`Recuperados totales - ${countryData.country}`}
+                  cardDataTittle={`Total Recovered`}
                   dataGlobalstyle="dataGlobalstyleGreen"
                   dataGlobalCountriesValue={countryData.recovered}
                 />
-               <CardData
-                key={`TotalActive-${countryData.country}`}
-                dataTitleGlobal="dataTitleGlobal"
-                cardDataTittle={`Total Active - ${countryData.country}`}
-                dataGlobalstyle="dataGlobalstyleLightBlue"
-                dataGlobalCountriesValue={countryData.active}
-              />
                 <CardData
-                key={`NewCases-${countryData.country}`}
-                dataTitleGlobal="dataTitleGlobal"
-                cardDataTittle={`New Cases - ${countryData.country}`}
-                dataGlobalstyle="dataGlobalstyleOrange"
-                dataGlobalCountriesValue={countryData.todayCases}
-              />
+                  key={`TotalActive-${countryData.country}`}
+                  dataTitleGlobal="dataTitleGlobal"
+                  cardDataTittle={`Total Active`}
+                  dataGlobalstyle="dataGlobalstyleLightBlue"
+                  dataGlobalCountriesValue={countryData.active}
+                />
                 <CardData
-                key={`NewDeaths-${countryData.country}`}
-                dataTitleGlobal="dataTitleGlobal"
-                cardDataTittle={`New Deaths - ${countryData.country}`}
-                dataGlobalstyle="dataGlobalstyleRed"
-                dataGlobalCountriesValue={countryData.todayDeaths}
-              />
+                  key={`NewCases-${countryData.country}`}
+                  dataTitleGlobal="dataTitleGlobal"
+                  cardDataTittle={`New Cases`}
+                  dataGlobalstyle="dataGlobalstyleOrange"
+                  dataGlobalCountriesValue={countryData.todayCases}
+                />
+                <CardData
+                  key={`NewDeaths-${countryData.country}`}
+                  dataTitleGlobal="dataTitleGlobal"
+                  cardDataTittle={`New Deaths`}
+                  dataGlobalstyle="dataGlobalstyleRed"
+                  dataGlobalCountriesValue={countryData.todayDeaths}
+                />
               </>
             )}
           </div>
