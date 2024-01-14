@@ -37,9 +37,10 @@ Users can enter through a homepage that gives them context about the website and
 - [Loli Vila](https://github.com/Vila71)
 - [Yamila Ranea](https://github.com/yamiranea)<br>
 
-**🦠 Try the site alive HERE**  [in Netflify pages ](https://google.com/)
+**🦠 Try the site alive HERE** [in Netflify pages ](https://google.com/)
 
 > [!TIP]
+>
 > <h4>🛠 Clone to your repository:</h4>
 > <ol>
 > <li>Clone this repository to your local environment.</li>
