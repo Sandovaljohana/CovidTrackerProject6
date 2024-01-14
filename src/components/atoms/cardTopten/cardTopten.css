@@ -10,6 +10,11 @@
     box-shadow:  0px 1px 10px rgba(0, 0, 0, 0.06);
     border: 1px #eee solid;
     margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.countryContainer:hover{
+    transform: scale(1.1);
 }
 
 .topTenInfoData{

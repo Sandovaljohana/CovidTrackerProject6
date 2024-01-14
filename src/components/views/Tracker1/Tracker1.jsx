@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavbarTracker from "../../molecules/Navbars/NavbarTracker/NavbarTracker";
 import "../Tracker1/tracker1.css";
-import CardCases from "../../atoms/CardCases/CardCases";
 import useFetch from "../../services/UseFetch";
 import Tracker0 from "../Tracker0/Tracker0";
 import Dropdown from "../../atoms/Dropdown/Dropdown";
@@ -101,8 +99,8 @@ const Tracker1 = () => {
             </>
           )}
         </div>
-        <div>
-          <img src={covidMap} />
+        <div className="mapTracker1">
+          <img className="mapTracker1" src={covidMap} />
         </div>
         </div>
       </div>
