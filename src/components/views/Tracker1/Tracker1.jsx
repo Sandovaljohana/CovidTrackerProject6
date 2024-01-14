@@ -3,7 +3,7 @@ import NavbarTracker from '../../molecules/Navbars/NavbarTracker/NavbarTracker';
 import '../Tracker1/tracker1.css';
 import CardCases from '../../atoms/CardCases/CardCases';
 import useFetch from '../../services/UseFetch';
-import Tracker2 from '../Tracker2/Tracker2';
+import Tracker0 from '../Tracker0/Tracker0';
 import Dropdown from '../../atoms/Dropdown/Dropdown';
 import CardData from '../../atoms/CardData/CardData';
 import '../../../components/atoms/CardData/cardData.css';
@@ -29,7 +29,7 @@ const Tracker1 = () => {
   return (
     <>
       <div className='backgroundTracker'>
-        <Tracker2 />
+        <Tracker0 />
         <div className="tracker1Container">
           <Dropdown onSelectCountry={handleCountryChange} />
           <div>
