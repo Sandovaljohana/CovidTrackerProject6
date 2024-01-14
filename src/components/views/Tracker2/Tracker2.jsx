@@ -10,6 +10,7 @@ const Tracker2 = () => {
       <div className='tracker2Container'>
         <Tracker0 />
         <div className='tableContainer'>
+          <h2 className="">Ajax Data Table - Covid-19 Country Wise State</h2>
         <Table />
         </div>
        
