@@ -1,0 +1,19 @@
+.tracker03Container{
+    display: flex;
+    flex-direction: row;
+}
+
+.tenCountriesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tenCountriesRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.tenCountriesCard {
+    display: flex;
+    flex-direction: row;
+}
