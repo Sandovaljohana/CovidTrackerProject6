@@ -10,7 +10,6 @@ const CardData = (props) => {
           <h3 className={props.dataGlobalstyle}>
             {props.dataGlobalCountriesValue}
           </h3>
-          
         </div>
         </div>
 
