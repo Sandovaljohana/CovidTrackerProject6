@@ -10,14 +10,12 @@ const CardData = (props) => {
           <h3 className={props.dataGlobalstyle}>
             {props.dataGlobalCountriesValue}
           </h3>
-          <div className="iconContent border-blue-700 border-solid border-2">
-          <img src={props.iconCard} alt="" />
+          
         </div>
         </div>
 
         
       </div>
-    </div>
   );
 };
 
