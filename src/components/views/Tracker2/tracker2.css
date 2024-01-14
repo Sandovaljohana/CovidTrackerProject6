@@ -1,0 +1,9 @@
+.tracker2Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tableContainer{
+    padding: 30px ;
+    margin: auto;
+}

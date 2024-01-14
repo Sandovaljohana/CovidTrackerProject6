@@ -20,6 +20,7 @@
     "framer-motion": "^10.17.9",
     "postcss": "^8.4.33",
     "react": "^18.2.0",
+    "react-data-table-component-with-filter": "^7.5.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
     "react-table": "^7.8.0",

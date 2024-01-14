@@ -1,30 +1,31 @@
-import React from 'react';
+import { useState } from "react";
+import DataTable from "react-data-table-component-with-filter";
+import "./table.css";
 
-const TableAtom = ({ columns, items, loading }) => {
-  if (loading) {
-    return <p>Loading...</p>;
-  }
-
+const TableAtom = (props) => {
+  const [filterText, setFilterText] = useState("");
+  const customFilterFunction = (rows, filterText) => {
+    return rows.filter((row) =>
+      row.country.toLowerCase().includes(filterText.toLowerCase())
+    );
+  };
+  const filteredData = customFilterFunction(props.data, filterText);
+  const columns = props.columns;
   return (
-    <table>
-      <thead>
-        <tr>
-          {columns.map((column) => (
-            <th key={column.key}>{column.key}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {items && items.map((item, index) => (
-          <tr key={index}>
-            {columns.map((column, columnIndex) => (
-              <td key={columnIndex}>{item[column.key]}</td>
-            ))}
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <div>
+      <input
+        type="text"
+        value={filterText}
+        onChange={(e) => setFilterText(e.target.value)}
+        placeholder="Search..."
+      />
+      <DataTable
+        data={filteredData}
+        columns={columns}
+        pagination
+        theme="customTheme"
+      />
+    </div>
   );
 };
-
 export default TableAtom;
