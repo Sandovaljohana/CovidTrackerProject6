@@ -1,4 +1,6 @@
 .cardFlagContainer {
+    height: 48px;
+    width: max-content;
     display: flex;
     flex-direction: row;
     background-color: white;

@@ -16,15 +16,16 @@ const Dropdown = ({ onSelectCountry }) => {
   }
 
   return (
-    <div>
+    <div className="dropdown-container">
       <select
+        className="dropdown-select"
         name="countries"
         id="countries"
         onChange={(e) => handleCountryChange(e.target.value)}
       >
-        <option value="country">Select a Country</option>
+        <option  value="country">Select a Country</option>
         {allCountries.map((countryObject) => (
-          <option key={countryObject.country} value={countryObject.country}>
+          <option className="option" key={countryObject.country} value={countryObject.country}>
             {countryObject.country}
           </option>
         ))}
