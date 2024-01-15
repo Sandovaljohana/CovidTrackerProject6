@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "vie build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
