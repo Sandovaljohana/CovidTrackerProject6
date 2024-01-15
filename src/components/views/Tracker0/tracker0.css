@@ -62,3 +62,27 @@
 .cardDataStyleDeaths {
     color: #3639ae;
 }
+
+@media only screen and (max-width: 480px) {
+    .cardCasesRow {
+        width: 100%;
+        left: 0;
+        border-right: none;
+    }
+
+    .titleTracker0 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cardCasesRow {
+        width: 400px;
+        left: 100px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .titleTracker0 {
+        font-size: 25px;
+    }
+}
