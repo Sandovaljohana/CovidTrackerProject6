@@ -48,7 +48,7 @@
     align-items: center;
 }
 
-.CardsContainer {
+.cardsContainer {
     display: flex;
     flex-direction: row;
 }
@@ -59,7 +59,13 @@
 
 @media only screen and (max-width: 480px) {
     .tracker1View {
+        display: flex;
         flex-direction: column;
+      
+    }
+
+    .headerTracker {
+        margin-top: 180px;
     }
 
     .dropdownContainer {
@@ -67,7 +73,18 @@
     }
 
     .cardsAndMapContainer {
+        display: flex;
         flex-direction: column;
+        width: 440px;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        border-right: none;
+        width: 100%;
+        left: 0;
     }
 
     .mapTracker1 {

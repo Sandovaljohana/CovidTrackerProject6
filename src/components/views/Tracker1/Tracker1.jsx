@@ -51,7 +51,7 @@ const Tracker1 = () => {
             </div>
           </div>
           <div className="cardsAndMapContainer">
-            <div className="CardsContainer">
+            <div className="cardsContainer">
               {countryData && (
                 <>
                   <div className="flex flex-col mt-6">

@@ -40,3 +40,9 @@
     font-size: 28px;
     font-weight: bold;
 }
+
+@media (max-width: 480px) {
+    .updatedCasesContainer {
+        margin-right: 2px;
+    }
+}
