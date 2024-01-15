@@ -5,5 +5,6 @@
 
 .tableContainer{
     padding: 30px ;
-    margin: auto;
+    margin-top: 50px;
+    width: fit-content ;
 }
