@@ -1,0 +1,33 @@
+.rdt_Table th[data-tag="name"] {
+    color: #121158 !important;
+    font-size: 16px;
+    font-weight: bold;
+  }  
+
+.rdt_TableRow:nth-child(odd){
+    background-color: #f8f9fe;
+    color: #515184;
+    font-size: 16px;
+}
+
+.rdt_TableRow:nth-child(odd):hover{
+    background-color: #e1e3f7;
+    color: #515184;
+    font-size: 16px;
+}
+
+.rdt_TableRow:nth-child(even){
+    background-color: white;
+    color: #515184;
+    font-size: 16px;
+}
+
+.rdt_TableRow:nth-child(even):hover{
+    background-color: #e1e3f7;
+    color: #515184;
+    font-size: 16px;
+}
+
+.imgFlagTable{
+    width: 25px;
+}

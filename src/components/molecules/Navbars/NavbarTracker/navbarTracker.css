@@ -1,8 +1,26 @@
 .navbarCustom{
-    background-color: aqua;
+
     width: 80px;
     display: flex;
     flex-direction: column;
     padding-left: 0;
-    border-right: solid 1px gray;
+    border-right: solid 1px rgba(128, 128, 128, 0.152);
 }
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate {
+    animation: rotate 5s linear infinite;
+    height: 50px;
+    width: 50px;
+    margin: 40px 0px 20px 15px;
+    -webkit-animation: rotate 5s linear infinite;
+}
+  

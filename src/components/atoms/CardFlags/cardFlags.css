@@ -1,0 +1,27 @@
+.cardFlagContainer {
+    height: 48px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.1);
+}
+
+.cardFlagContainer:hover {
+    background-color: #3639ae;
+}
+
+.cardFlagImg {
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    margin-right: 8px
+}
+
+.cardFlagCountry {
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+}
