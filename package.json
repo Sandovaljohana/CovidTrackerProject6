@@ -5,20 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
-    "build": "vie build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@craco/craco": "^5.9.0",
     "@fontsource/roboto": "^5.0.8",
-    "autoprefixer": "^10.4.16",
-    "craco": "^0.0.3",
     "framer-motion": "^10.17.9",
-    "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-data-table-component-with-filter": "^7.5.4",
     "react-dom": "^18.2.0",
