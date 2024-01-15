@@ -26,7 +26,7 @@ const NavbarTracker = () => {
     { id: 6, href: "/Tracker6", icon: ArrowTrendingUpIcon },
     { id: 7, href: "/Tracker7", icon: GlobeAltIcon },
     { id: 8, href: "/Tracker8", icon: ChatBubbleLeftIcon },
-    { id: 9, href: "/Tracker9", icon: EllipsisHorizontalCircleIcon },
+    { id: 9, href: "/", icon: EllipsisHorizontalCircleIcon },
   ];
 
   const handleButtonClick = (id) => {

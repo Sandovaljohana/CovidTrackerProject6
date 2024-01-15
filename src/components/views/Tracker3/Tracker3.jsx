@@ -16,7 +16,6 @@ const Tracker3 = () => {
 
   if (loading) {
     return <>Loading...</>;
-    return <>Loading...</>;
   }
 
   if (error) {
