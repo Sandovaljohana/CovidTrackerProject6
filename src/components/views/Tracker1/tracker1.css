@@ -54,3 +54,40 @@
 .mapTracker1{
     padding-right: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+    .tracker1View {
+        flex-direction: column;
+    }
+
+    .dropdownContainer {
+        width: 100%;
+    }
+
+    .cardsAndMapContainer {
+        flex-direction: column;
+    }
+
+    .mapTracker1 {
+        padding-right: 0;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .tracker1View {
+        flex-direction: row;
+    }
+
+    .dropdownContainer {
+        width: 300px;
+    }
+
+    .cardsAndMapContainer {
+        flex-direction: row;
+    }
+
+    .mapTracker1 {
+        padding-right: 10px;
+    }
+}

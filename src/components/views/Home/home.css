@@ -37,3 +37,22 @@
     size-adjust: auto;
   }
 
+  @media (max-width: 480px) {
+    .backgroundHome {
+      padding: 10px; 
+    }
+    .imgBanner {
+      width: 90%; 
+      margin-top: 20%; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .backgroundHome {
+      padding: 15px; 
+    }
+    .imgBanner {
+      width: 80%;
+      margin-top: 15%; 
+    }
+  }
